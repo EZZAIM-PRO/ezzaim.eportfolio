@@ -17,6 +17,117 @@ body {
   padding: 4vh 2vw;
   margin-top: 10%;
 }
+.res1{
+  gap : 5%;
+  display: flex;
+  margin-top: 6vh;
+  height: 7vh;
+  width: 100vw;
+}
+.resres1{ 
+  display: flex;
+  margin-left : 5%;
+  margin-top: 6vh;
+  height: 7vh;
+  width: 29vw;
+  border-radius: 1.6vw;
+  overflow: hidden; 
+  border: 1px solid rgba(255,255,255,0.9);
+  background: rgba(10,18,28,0.25); /* translucent layer */
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+.resres2{
+  left : 35.5%;
+  display:flex;
+  
+  margin-top: 6vh;
+  height: 7vh;
+  width: 29vw;
+  border-radius: 1.6vw;
+  overflow: hidden; 
+  border: 1px solid rgba(255,255,255,0.9);
+  background: rgba(10,18,28,0.25); /* translucent layer */
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+.resres3{
+  margin-right: 5%;
+  display: flex;
+  margin-top: 6vh;
+  height: 7vh;
+  width: 29vw;
+  border-radius: 1.6vw;
+  overflow: hidden; 
+  border: 1px solid rgba(255,255,255,0.9);
+  background: rgba(10,18,28,0.25); /* translucent layer */
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+.eng1{
+  margin-left: 8%;
+  display: flex;
+  position: fixed;
+  margin-top: 6vh;
+  height: 25vh;
+  width: 80vw;
+  border-radius: 1.6vw;
+  overflow: hidden; 
+  border: 1px solid rgba(255,255,255,0.9);
+  background: rgba(10,18,28,0.25); /* translucent layer */
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+.eng1 img{
+  width: 33%;
+  max-width: 33%;
+  display: block;
+  object-fit: contain;
+  padding-left: 0;
+}
+.eng1 p{
+  width: 67%;
+  max-width: 67%;
+  display: block;
+  object-fit: contain;
+  color: white;
+  font-size: 200%;
+  padding-left: 0;
+  padding-top: 2%;
+  padding-right: 10%;
+}
+.job1{
+  margin-left: 8%;
+  display: flex;
+  position: fixed;
+  margin-top: 6vh;
+  height: 25vh;
+  width: 80vw;
+  border-radius: 1.6vw;
+  overflow: hidden; 
+  border: 1px solid rgba(255,255,255,0.9);
+  background: rgba(10,18,28,0.25); /* translucent layer */
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+.job1 img{
+  width: 33%;
+  max-width: 33%;
+  display: block;
+  object-fit: contain;
+  padding-left: 0;
+}
+.job1 p{
+  width: 67%;
+  max-width: 67%;
+  display: block;
+  object-fit: contain;
+  color: white;
+  font-size: 150%;
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-right: 10%;
+}
 .project1{
   margin-left: 8%;
   position: fixed;
@@ -117,27 +228,180 @@ body {
 .ARTS:hover p{
   display: flex;
 }
-.project2{
-/* Apply a frosted-glass blur effect to project boxes */
-
+.res2{
   margin-left: 8%;
+  display: flex;
+  margin-top: 5vh;
+  height: 25vh;
+  width: 80vw;
+  border-radius: 1.6vw; 
+  overflow: hidden; 
+    border: 1px solid rgba(255,255,255,0.9);
+  background: rgba(10,18,28,0.25);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+.res2 p{
+  width: 67%;
+  max-width: 67%;
+  display: block;
+  object-fit: contain;
+  padding-left: 15%;
+  text-align: center;
+  color: white;
+  font-size: 150%;
+  padding-top: 0%;
+  padding-right: 10%;
+}
+.eng2{
+  margin-left: 8%;
+  display: flex;
   position: fixed;
   margin-top: 34vh;
   height: 25vh;
   width: 80vw;
   border-radius: 1.6vw; 
   overflow: hidden; 
-  border: 1px solid rgba(255,255,255,0.9);
+    border: 1px solid rgba(255,255,255,0.9);
+  background: rgba(10,18,28,0.25);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
 }
-.project3{
+.eng2 img{
+  width: 33%;
+  max-width: 33%;
+  display: block;
+  object-fit: contain;
+  padding-left: 0;
+}
+.eng2 p{
+  width: 67%;
+  max-width: 67%;
+  display: block;
+  object-fit: contain;
+  color: white;
+  font-size: 200%;
+  padding-left: 0;
+  padding-top: 2%;
+  padding-right: 10%;
+}
+.res3{
   margin-left: 8%;
+  display: flex;
+  margin-top: 8vh;
+  height: 25vh;
+  width: 80vw;
+  border-radius: 1.6vw; 
+  overflow: hidden; 
+    border: 1px solid rgba(255,255,255,0.9);
+  background: rgba(10,18,28,0.25);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+.res3 p{
+  width: 67%;
+  max-width: 67%;
+  display: block;
+  object-fit: contain;
+  padding-left: 15%;
+  text-align: center;
+  color: white;
+  font-size: 150%;
+  padding-top: 0%;
+  padding-right: 10%;
+}
+.res5{
+  margin-left: 9%;
+  margin-top: 8vh;
+  height: 45vh;
+  width: 80vw;
+  border-radius: 1.6vw;
+  overflow: hidden; 
+    border: 1px solid rgba(255,255,255,0.9);
+  background: rgba(10,18,28,0.25);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+.res6{
+  margin-left: 9%;
+  margin-top: 8vh;
+  height: 28vh;
+  width: 80vw;
+  border-radius: 1.6vw;
+  overflow: hidden; 
+    border: 1px solid rgba(255,255,255,0.9);
+  background: rgba(10,18,28,0.25);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+.res7{
+  margin-left: 9%;
+  margin-top: 8vh;
+  height: 28vh;
+  width: 80vw;
+  border-radius: 1.6vw;
+  overflow: hidden; 
+    border: 1px solid rgba(255,255,255,0.9);
+  background: rgba(10,18,28,0.25);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+.res4{
+  margin-left: 23.5%;
+  display: flex;
+  margin-top: 8vh;
+  height: 11vh;
+  width: 50vw;
+  border-radius: 1.6vw; 
+  overflow: hidden; 
+    border: 1px solid rgba(255,255,255,0.9);
+  background: rgba(10,18,28,0.25);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+.res4 p{
+  width: 67%;
+  max-width: 67%;
+  display: block;
+  object-fit: contain;
+  padding-left: 15%;
+  text-align: center;
+  color: white;
+  font-size: 150%;
+  padding-top: 1%;
+}
+.eng3{
+  margin-left: 8%;
+  display: flex;
   position: fixed;
   margin-top: 62vh;
   height: 25vh;
   width: 80vw;
   border-radius: 1.6vw;
   overflow: hidden; 
-  border: 1px solid rgba(255,255,255,0.9);
+    border: 1px solid rgba(255,255,255,0.9);
+  background: rgba(10,18,28,0.25); /* translucent layer */
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  
+}
+.eng3 img{
+  width: 33%;
+  max-width: 33%;
+  display: block;
+  object-fit: contain;
+  padding-left: 0;
+}
+.eng3 p{
+  width: 67%;
+  max-width: 67%;
+  display: block;
+  object-fit: contain;
+  color: white;
+  font-size: 200%;
+  padding-left: 0;
+  padding-top: 2%;
+  padding-right: 10%;
 }
 .project1, .project2, .project3 {
   background: rgba(255,255,255,0.04); /* subtle translucent fallback */
@@ -278,8 +542,99 @@ body {
 ul {
   list-style-type: none;
   display: flex;
+  padding-top: 1%;
 }
 
 li {
   padding: 4%;
+}
+.res5 ul{
+  list-style-type : square;
+  display: block;
+}
+.res5 li {
+  padding: 1%;
+}
+.res6 ul{
+  list-style-type : square;
+  display: block;
+}
+.res6 li {
+  padding: 1%;
+}
+.res7 ul{
+  list-style-type : square;
+  display: block;
+}
+.res7 li {
+  padding: 1%;
+}
+.coname3{
+  font-size: 150%;
+  color:#e6fbff;
+  background: radial-gradient(
+    circle at 100%,
+    #1b4b66 0%, 
+    #61dbe8 45%, 
+    #1b4b66 100%
+  );
+  font-weight: 600;
+  background-size: 300% auto;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 8px rgba(30,120,150,0.55);
+  animation: animatedTextGradient 5s linear infinite;
+}
+
+@keyframes animatedTextGradient {
+  to {
+    background-position: 300% center;
+  }
+}
+
+/* White-outline button */
+.buttondown{
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 180ms ease, color 180ms ease, transform 120ms ease;
+  font-size: 150%;
+  color:#e6fbff;
+  background: radial-gradient(
+    circle at 100%,
+    #1b4b66 0%, 
+    #61dbe8 45%, 
+    #1b4b66 100%
+  );
+  font-weight: 600;
+  background-size: 300% auto;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px rgba(30,120,150,0.55);
+  animation: animatedTextGradient 5s linear infinite;
+
+}
+.buttondown:hover{
+  background: rgba(255,255,255,0.06);
+}
+.buttondown:active{
+  transform: translateY(1px);
+}
+.buttondown[disabled],
+.buttondown.disabled{
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+@keyframes animatedTextGradient {
+  to {
+    background-position: 300% center;
+  }
 }
