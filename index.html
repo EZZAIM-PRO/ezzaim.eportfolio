@@ -6,45 +6,62 @@
 </style>
 <script src="resize.js"></script>
 <head>
-<title>EZZAIM MOHAMED WASSIM|ENGENEERING STUDENT</title>
+<title>EZZAIM MOHAMED WASSIM | ENGINEERING STUDENT</title>
 </head>
-<body>
   <div class = "mycontainer" style = "color : white;">
     <nav class="nav">
       <ul>
-                    <li>
-                        <a href="./index.html" class="navigationlis" id="aHome">WELCOME</a>
-                    </li>
-                    <li>
-                        <a href="./Engeneering.html" class="navigationlis" id="aEng">ENGENEERING COURSE</a>
-                    </li>
-                    <li>
-                        <a href="./PROJECTS.html" class="navigationlis" id="aProjects">INTERNATIONAL MOBILITY</a>
-                    </li>
-                    <li>
-                        <a href="./civic.html" class="navigationlis" id="aExperience">SUSTAINABILITY & CIVIC ENGAGEMENT</a>
-                    </li>
-                    <li>
-                        <a href="./sports.html" class="navigationlis" id="aContact">SPORT & OTHER ACTIVITIES</a>
-                    </li>
-                    <li>
-                        <a href="./career.html" class="navigationlis" id="aCareer">CAREER DEVELOPMENT</a>
-                    </li>
-                    <li>
-                        <a href="./Resume.html" class="navigationlis" id="aResume">RESUME</a>
-                    </li>
-                </ul>
-                </nav>
+        <li><a href="./index.html" class="navigationlis" id="aHome">WELCOME</a></li>
+        <li><a href="./Engeneering.html" class="navigationlis" id="aEng">ENGINEERING COURSE</a></li>
+        <li><a href="./PROJECTS.html" class="navigationlis" id="aProjects">INTERNATIONAL MOBILITY</a></li>
+        <li><a href="./civic.html" class="navigationlis" id="aExperience">SUSTAINABILITY &amp; CIVIC ENGAGEMENT</a></li>
+        <li><a href="./sports.html" class="navigationlis" id="aContact">SPORT &amp; OTHER ACTIVITIES</a></li>
+        <li><a href="./career.html" class="navigationlis" id="aCareer">CAREER DEVELOPMENT</a></li>
+  <li><a href="./Resume.html" class="navigationlis" id="aResume">CV</a></li>
+      </ul>
+    </nav>
   </div>
   <div class="sky"></div>
   <script src="stars.js"></script>
-  <section class="sectionhome HOME" id="HOME">  
-        <p class="coname1">
-          I AM EZZAIM MOHAMED WASSIM
-        </p>
-        <p class="coname2">
-          ENGENEERING STUDENT at ENSEEIHT studying COMPUTER SCIENCE. Passionate about coding, technology, cybersecurity and innovation.
-        </p>
-  </section>
+  <div style="display:flex;justify-content: space-between;align-items: center;gap:2rem;width:100%;padding:0 2rem;">
+    <div class="divhome HOME" id="HOME">  
+            <p class="coname1">
+              I AM EZZAIM MOHAMED WASSIM
+            </p>
+            <p class="coname2">
+              ENGINEERING STUDENT at ENSEEIHT, studying COMPUTER SCIENCE. Passionate about coding, technology, cybersecurity, and innovation.
+            </p>
+      </div>
+      <div>
+        <img id="pixil-anim" class="pixil-anim" src="pixil-frame-0.png" alt="animated profile">
+      </div>
+  </div>
+  
+
+  <script>
+    // Simple frame-by-frame animation using local pixil-frame PNGs
+    (function(){
+      const frames = [
+        'pixil-frame-0.png','pixil-frame-1.png','pixil-frame-2.png','pixil-frame-3.png',
+        'pixil-frame-4.png','pixil-frame-5.png','pixil-frame-6.png','pixil-frame-7.png',
+        'pixil-frame-8.png','pixil-frame-9.png','pixil-frame-10.png','pixil-frame-11.png',
+        'pixil-frame-12.png','pixil-frame-13.png','pixil-frame-14.png','pixil-frame-15.png'
+      ];
+      const img = document.getElementById('pixil-anim');
+      if(!img) return;
+      // preload
+      const preloads = frames.map(src=>{ const i=new Image(); i.src=src; return i; });
+      let idx = 0;
+      const fps = 10; // frames per second
+      const interval = 1000 / fps;
+      setInterval(()=>{
+        idx = (idx + 1) % frames.length;
+        img.src = frames[idx];
+      }, interval);
+    })();
+  </script> 
+  
+
+
 </body>
 </html>
