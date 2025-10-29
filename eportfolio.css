@@ -29,7 +29,7 @@ body {
   margin-left : 5%;
   margin-top: 6vh;
   height: 15vh;
-  width: 40vw;
+  width: 29vw;
   border-radius: 1.6vw;
   overflow: hidden; 
   border: 1px solid rgba(255,255,255,0.9);
@@ -42,9 +42,10 @@ body {
   display:flex;
   
   margin-top: 6vh;
-  height: 7vh;
+  height: 15vh;
   width: 29vw;
   border-radius: 1.6vw;
+  align-items: center;
   overflow: hidden; 
   border: 1px solid rgba(255,255,255,0.9);
   background: rgba(10,18,28,0.25); /* translucent layer */
@@ -55,9 +56,10 @@ body {
   margin-right: 5%;
   display: flex;
   margin-top: 6vh;
-  height: 7vh;
+  height: 15vh;
   width: 29vw;
   border-radius: 1.6vw;
+  align-items: center;
   overflow: hidden; 
   border: 1px solid rgba(255,255,255,0.9);
   background: rgba(10,18,28,0.25); /* translucent layer */
@@ -658,6 +660,4 @@ li {
   to {
     background-position: 300% center;
   }
-
 }
-
