@@ -28,7 +28,7 @@ body {
   display: flex;
   margin-left : 5%;
   margin-top: 6vh;
-  height: 7vh;
+  height: 15vh;
   width: 40vw;
   border-radius: 1.6vw;
   overflow: hidden; 
@@ -660,3 +660,4 @@ li {
   }
 
 }
+
