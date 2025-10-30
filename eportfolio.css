@@ -4,6 +4,12 @@ body {
   height: 100vh;
   overflow: hidden; 
 }
+.bodyi{
+  font-family: 'Roboto Mono', monospace;
+  background-color: black;
+  height: 100vh;
+  overflow-y: scroll; 
+}
 .divproject{
   align-items: center;
   text-align: center;
@@ -446,7 +452,6 @@ body {
 }
 .coname1{
   line-height: 1;
-  position: fixed;
   font-size: 400%;
   text-align: left;
   color:white;
@@ -458,7 +463,7 @@ body {
 .coname2{
   line-height: 1.5;
   font-size: 250%;
-  position: fixed; 
+  width:80%;
   top: 48vh;
   left: 0; 
   color:#e6fbff; 
