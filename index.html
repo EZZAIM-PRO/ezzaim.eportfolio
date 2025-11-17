@@ -1,72 +1,126 @@
 <!DOCTYPE html>
 <html>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> 
-<style type="text/css">
-  @import url("eportfolio.css");
-</style>
-<head>
-<title>EZZAIM MOHAMED WASSIM | ENGINEERING STUDENT</title>
-</head>
-<body  class="bodyi" >
-  <div class = "mycontainer" style = "color : white;">
-    <nav class="nav">
-      <ul>
-        <li><a href="./index.html" class="navigationlis" id="aHome">WELCOME</a></li>
-        <li><a href="./Engeneering.html" class="navigationlis" id="aEng">ENGINEERING COURSE</a></li>
-        <li><a href="./PROJECTS.html" class="navigationlis" id="aProjects">INTERNATIONAL MOBILITY</a></li>
-        <li><a href="./civic.html" class="navigationlis" id="aExperience">SUSTAINABILITY &amp; CIVIC ENGAGEMENT</a></li>
-        <li><a href="./sports.html" class="navigationlis" id="aContact">SPORT &amp; OTHER ACTIVITIES</a></li>
-        <li><a href="./career.html" class="navigationlis" id="aCareer">CAREER DEVELOPMENT</a></li>
-  <li><a href="./Resume.html" class="navigationlis" id="aResume">CV</a></li>
-      </ul>
-    </nav>
-  </div>
-  <div class="sky"></div>
-  <script src="stars.js"></script>
-  <div style="display:flex;justify-content: flex-end;align-items: center;gap:2rem;width:100%;padding:0 2rem;padding-left: 2%;">
-    <div class="divhome HOME" id="HOME">  
-            <p class="coname1">
-              I AM EZZAIM MOHAMED WASSIM
-            </p>
-            <p class="coname2">
-              ENGINEERING STUDENT at ENSEEIHT, studying COMPUTER SCIENCE. Passionate about coding, technology, cybersecurity, and innovation.
-            </p>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <style type="text/css">
+    @import url("eportfolio.css");
+  </style>
+  <head>
+    <title>EZZAIM MOHAMED WASSIM | ENGINEERING STUDENT</title>
+  </head>
+  <body class="bodyi">
+    <div class="mycontainer" style="color: white">
+      <nav class="nav">
+        <ul>
+          <li>
+            <a href="./index.html" class="navigationlis" id="aHome">WELCOME</a>
+          </li>
+          <li>
+            <a href="./Engeneering.html" class="navigationlis" id="aEng"
+              >ENGINEERING COURSE</a
+            >
+          </li>
+          <li>
+            <a href="./PROJECTS.html" class="navigationlis" id="aProjects"
+              >INTERNATIONAL MOBILITY</a
+            >
+          </li>
+          <li>
+            <a href="./civic.html" class="navigationlis" id="aExperience"
+              >SUSTAINABILITY &amp; CIVIC ENGAGEMENT</a
+            >
+          </li>
+          <li>
+            <a href="./sports.html" class="navigationlis" id="aContact"
+              >SPORT &amp; OTHER ACTIVITIES</a
+            >
+          </li>
+          <li>
+            <a href="./career.html" class="navigationlis" id="aCareer"
+              >CAREER DEVELOPMENT</a
+            >
+          </li>
+          <li>
+            <a href="./Resume.html" class="navigationlis" id="aResume">CV</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="sky"></div>
+    <script src="stars.js"></script>
+    <div
+      style="
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 2rem;
+        width: 100%;
+        padding: 0 2rem;
+        padding-left: 2%;
+      "
+    >
+      <div class="divhome HOME" id="HOME">
+        <p class="coname1">I AM EZZAIM MOHAMED WASSIM</p>
+        <p class="coname2">
+          ENGINEERING STUDENT at ENSEEIHT, studying COMPUTER SCIENCE. Passionate
+          about coding, technology, cybersecurity, and innovation.
+        </p>
       </div>
       <div>
-        <img id="pixil-anim" class="pixil-anim" src="pixil-frame-0.png" alt="animated profile">
+        <img
+          id="pixil-anim"
+          class="pixil-anim"
+          src="pixil-frame-0.png"
+          alt="animated profile"
+        />
       </div>
-  </div>
-  <div style="align-items: center;padding-left: 23%;">
-      <iframe width="80%" height="auto"
-          src="https://youtu.be/EuAn3Ij7wGU">
-    </iframe>
-      
-  </div>
-  <script>
-    // Simple frame-by-frame animation using local pixil-frame PNGs
-    (function(){
-      const frames = [
-        'pixil-frame-0.png','pixil-frame-1.png','pixil-frame-2.png','pixil-frame-3.png',
-        'pixil-frame-4.png','pixil-frame-5.png','pixil-frame-6.png','pixil-frame-7.png',
-        'pixil-frame-8.png','pixil-frame-9.png','pixil-frame-10.png','pixil-frame-11.png',
-        'pixil-frame-12.png','pixil-frame-13.png','pixil-frame-14.png','pixil-frame-15.png'
-      ];
-      const img = document.getElementById('pixil-anim');
-      if(!img) return;
-      // preload
-      const preloads = frames.map(src=>{ const i=new Image(); i.src=src; return i; });
-      let idx = 0;
-      const fps = 10; // frames per second
-      const interval = 1000 / fps;
-      setInterval(()=>{
-        idx = (idx + 1) % frames.length;
-        img.src = frames[idx];
-      }, interval);
-    })();
-  </script> 
-  
-
-
-</body>
-
+    </div>
+    <a
+      style="font-size: 200%"
+      class="navigationlis"
+      href="https://youtu.be/EuAn3Ij7wGU?controls=0"
+      >Click to Watch Video</a
+    >
+    <div style="align-items: center; padding-left: 23%"></div>
+    <script>
+      // Simple frame-by-frame animation using local pixil-frame PNGs
+      (function () {
+        const frames = [
+          "pixil-frame-0.png",
+          "pixil-frame-1.png",
+          "pixil-frame-2.png",
+          "pixil-frame-3.png",
+          "pixil-frame-4.png",
+          "pixil-frame-5.png",
+          "pixil-frame-6.png",
+          "pixil-frame-7.png",
+          "pixil-frame-8.png",
+          "pixil-frame-9.png",
+          "pixil-frame-10.png",
+          "pixil-frame-11.png",
+          "pixil-frame-12.png",
+          "pixil-frame-13.png",
+          "pixil-frame-14.png",
+          "pixil-frame-15.png",
+        ];
+        const img = document.getElementById("pixil-anim");
+        if (!img) return;
+        // preload
+        const preloads = frames.map((src) => {
+          const i = new Image();
+          i.src = src;
+          return i;
+        });
+        let idx = 0;
+        const fps = 10; // frames per second
+        const interval = 1000 / fps;
+        setInterval(() => {
+          idx = (idx + 1) % frames.length;
+          img.src = frames[idx];
+        }, interval);
+      })();
+    </script>
+  </body>
 </html>
