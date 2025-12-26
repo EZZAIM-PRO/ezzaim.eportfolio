@@ -6,10 +6,14 @@
   />
   <style type="text/css">
     @import url("eportfolio.css");
-    
+
     /* Added internal style to ensure centering works perfectly */
     .video-link-container {
-      
+      display: flex;
+      flex-direction: column;
+      padding-left: 10%;
+      align-items: center;
+      gap: 1em;
     }
 
     .video-link-container a {
@@ -29,13 +33,37 @@
     <div class="mycontainer" style="color: white">
       <nav class="nav">
         <ul>
-          <li><a href="./index.html" class="navigationlis" id="aHome">WELCOME</a></li>
-          <li><a href="./Engeneering.html" class="navigationlis" id="aEng">ENGINEERING COURSE</a></li>
-          <li><a href="./PROJECTS.html" class="navigationlis" id="aProjects">INTERNATIONAL MOBILITY</a></li>
-          <li><a href="./civic.html" class="navigationlis" id="aExperience">SUSTAINABILITY &amp; CIVIC ENGAGEMENT</a></li>
-          <li><a href="./sports.html" class="navigationlis" id="aContact">SPORT &amp; OTHER ACTIVITIES</a></li>
-          <li><a href="./career.html" class="navigationlis" id="aCareer">CAREER DEVELOPMENT</a></li>
-          <li><a href="./Resume.html" class="navigationlis" id="aResume">CV</a></li>
+          <li>
+            <a href="./index.html" class="navigationlis" id="aHome">WELCOME</a>
+          </li>
+          <li>
+            <a href="./Engeneering.html" class="navigationlis" id="aEng"
+              >ENGINEERING COURSE</a
+            >
+          </li>
+          <li>
+            <a href="./PROJECTS.html" class="navigationlis" id="aProjects"
+              >INTERNATIONAL MOBILITY</a
+            >
+          </li>
+          <li>
+            <a href="./civic.html" class="navigationlis" id="aExperience"
+              >SUSTAINABILITY &amp; CIVIC ENGAGEMENT</a
+            >
+          </li>
+          <li>
+            <a href="./sports.html" class="navigationlis" id="aContact"
+              >SPORT &amp; OTHER ACTIVITIES</a
+            >
+          </li>
+          <li>
+            <a href="./career.html" class="navigationlis" id="aCareer"
+              >CAREER DEVELOPMENT</a
+            >
+          </li>
+          <li>
+            <a href="./Resume.html" class="navigationlis" id="aResume">CV</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -80,7 +108,7 @@
       >
         Click to Watch the English introduction Video
       </a>
-      
+
       <a
         style="font-size: 200%"
         class="navigationlis"
@@ -95,11 +123,21 @@
       // Simple frame-by-frame animation using local pixil-frame PNGs
       (function () {
         const frames = [
-          "pixil-frame-0.png", "pixil-frame-1.png", "pixil-frame-2.png",
-          "pixil-frame-3.png", "pixil-frame-4.png", "pixil-frame-5.png",
-          "pixil-frame-6.png", "pixil-frame-7.png", "pixil-frame-8.png",
-          "pixil-frame-9.png", "pixil-frame-10.png", "pixil-frame-11.png",
-          "pixil-frame-12.png", "pixil-frame-13.png", "pixil-frame-14.png",
+          "pixil-frame-0.png",
+          "pixil-frame-1.png",
+          "pixil-frame-2.png",
+          "pixil-frame-3.png",
+          "pixil-frame-4.png",
+          "pixil-frame-5.png",
+          "pixil-frame-6.png",
+          "pixil-frame-7.png",
+          "pixil-frame-8.png",
+          "pixil-frame-9.png",
+          "pixil-frame-10.png",
+          "pixil-frame-11.png",
+          "pixil-frame-12.png",
+          "pixil-frame-13.png",
+          "pixil-frame-14.png",
           "pixil-frame-15.png",
         ];
         const img = document.getElementById("pixil-anim");
@@ -121,5 +159,3 @@
     </script>
   </body>
 </html>
-
-
